@@ -46,4 +46,5 @@ if time_to_insert:
 
 import requests
 smoothiefroot_response = requests.get("https://my.smoothiefroot.com/api/fruit/watermelon")
-st.text(smoothiefroot_response.json())
+#st.text(smoothiefroot_response.json())
+sf_df = st.dataframe(data=smoothiefront_response.json(),use container_width=True)
