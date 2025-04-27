@@ -10,7 +10,6 @@ st.write(
     """**Choose the fruits you want in your custom Smoothie..!**"""
 )
 
-import streamlit as st
 name_on_order = st.text_input('Name on Smoothie:')
 st.write ('The Name on your Smoothie will be: ', name_on_order)
 
